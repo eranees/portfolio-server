@@ -4,7 +4,7 @@ import { AbstractApiResponse } from './utils/general-response';
 import { ApiTags } from '@nestjs/swagger';
 
 @Controller({
-  path: 'App-Controller',
+  path: '',
   version: '1',
 })
 export class AppController {
